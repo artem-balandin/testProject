@@ -30,7 +30,7 @@ public class sendMessage {
     }
 
     @Test
-    public void test() throws IOException {
+    public void test1() throws IOException {
         sendMessageJson(new ApiCredentials("RulonOboev", "123asdQ"), "4803813020", "new project");
     }
 }
